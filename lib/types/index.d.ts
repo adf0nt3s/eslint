@@ -1236,6 +1236,10 @@ export namespace ESLint {
 		cacheLocation?: string | undefined;
 		cacheStrategy?: CacheStrategy | undefined;
 
+		// Suppressions
+		applySuppressions?: boolean | undefined;
+		suppressionsLocation?: string | null | undefined;
+
 		// Other Options
 		concurrency?: number | "auto" | "off" | undefined;
 		flags?: string[] | undefined;
